@@ -7,9 +7,18 @@ Music sensor touchpad is a first step to create an analog of Matt's Mellamy kaos
 
 # Description of functions and supporting devices.
 
-1. Main device is a laptop's touchpad that will be using for changing sounds.
+1. Main device is a laptop's touchpad (Synaptics 920-000436-01 for example) that will be using for changing sounds.
 2. Dccduino UNO R3 (another version of Arduino).
 3. LCD display for showing current key.
 4. TTP226 touch sensor for changing key.
 5. Dynamic output (jack-jack cabel)
-Finally, a person using the touchpad and  
+Finally, a person using the touchpad and getting a melody on the dynamic. 
+
+# Construction
+
+![Construction](https://user-images.githubusercontent.com/107487372/174485287-cefa62ce-35fa-40b2-aa53-929356fae59a.png)
+
+In the touchpad it needs to find 4 contacts: DATA, CLOCK, +5V and GND.
+Digital ports are for TTP226 outs and DATA, CLOCK touchpad. Analog ports are for LCD display outs.
+
+# 
